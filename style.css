@@ -8,28 +8,34 @@ body{
 }
 
 header{
-    background-color: darkviolet;
-    color: goldenrod;
-    padding: 10px;
+    background-color: rgb(31, 32, 31)  ;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
 }
 
 nav{
     display: flex;
     justify-content: center;
-    background-color: aqua;
-    padding: 5;
+    background-color: #111;
 }
 
-nav a{
-    color: lightskyblue;
-    text-decoration: none;
+nav li  {
+    text-align: center;
+   font-family: 'Courier New', Courier, monospace;  
+   display: inline-block;
 }
 
-nav a:hover{
-    color: burlywood;
+nav ul li a{
+    display: inline;
     text-decoration: none;
-    cursor: crosshair;
+    color: blue;
+    background-color: yellowgreen;
+    padding: 15px;
+    cursor: pointer;
+    margin: 45px;
 }
+
 
 section {
     margin: 40px;
